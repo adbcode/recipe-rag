@@ -1,6 +1,8 @@
 # recipe-rag
 Find recipe that suits your needs. Built on top of Gemma-2B with RAG hosted on MongoDB. Made using the first 1k recipe from the [recipe-nlg](https://huggingface.co/datasets/recipe_nlg) dataset.
 
+![The interface in action](recipe-rag.png)
+
 ## How to replicate
 - The notebook was developed on Google Colab, but can be adapted for use in other environments.
 - Create `MONGO_URI` and `HF_TOKEN` environment values / secrets for your MongoDB database and Hugging Face account respectively.
@@ -8,8 +10,8 @@ Find recipe that suits your needs. Built on top of Gemma-2B with RAG hosted on M
 - In a GPU environment, run the notebook and follow instructions.
 
 ## TODO
-- Enrich response with the matched recipe.
-- Create a simple chat interface.
+- ~~Enrich response with the matched recipe.~~
+- ~~Create a simple chat interface.~~
 
 ## Reference
 - Inspired by a Hugging Face [cookbook](https://github.com/huggingface/cookbook/blob/main/notebooks/en/rag_with_hugging_face_gemma_mongodb.ipynb).
